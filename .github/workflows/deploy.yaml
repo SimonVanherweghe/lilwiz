@@ -55,4 +55,5 @@ jobs:
             php craft project-config/apply
             php craft migrate --track=content --interactive=0
             php craft clear-caches/all
+            npm install
             npm run build
