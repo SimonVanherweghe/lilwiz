@@ -2,8 +2,12 @@
 # https://swharden.com/blog/2022-04-24-github-actions-ftp/
 
 name: 🚀 Craft Deploy
-on: [push, workflow_dispatch]
-
+on:
+  push:
+    branches:
+      - main 
+  workflow_dispatch:
+  
 env:
   APP_PATH: ~/craft/lilwiz
   WEB_PATH: ~/www/lilwiz
