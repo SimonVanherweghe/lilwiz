@@ -53,4 +53,4 @@ jobs:
             php craft clear-caches/all
             npm install
             npm run build
-            mv web/dist {{env.WEB_PATH}}
+            mv web/dist ${{env.WEB_PATH}}
