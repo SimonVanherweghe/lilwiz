@@ -34,7 +34,7 @@ jobs:
 
       - name: Deploy web files with rsync
         run: |
-          rsync -azh --delete-after --exclude={"/index.php"} -e "ssh -o StrictHostKeyChecking=no" ./web ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{env.WEB_PATH}}
+          rsync -azh --delete-after --exclude={"/index.php"} -e "ssh -o StrictHostKeyChecking=no" ./web/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{env.WEB_PATH}}
 
 
       # execute Craft commands on remote server
@@ -47,8 +47,12 @@ jobs:
           script: |
             cd ${{ env.APP_PATH }}
             mkdir -p storage
+            composer install --no-interaction
             chmod a+x craft
             php craft db/backup
-            php craft migrate/all
+            php craft update/composer-install --interactive=0
+            php craft migrate/all --no-content --interactive=0
             php craft project-config/apply
+            php craft migrate --track=content --interactive=0
             php craft clear-caches/all
+            npm run build
