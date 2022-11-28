@@ -34,7 +34,7 @@ jobs:
 
       - name: Deploy web files with rsync
         run: |
-          rsync -azh --delete-after --exclude={"/index.php"} -e "ssh -o StrictHostKeyChecking=no" ./web/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{env.WEB_PATH}}
+          rsync -azh --delete-after --exclude={"/web/index.php"} -e "ssh -o StrictHostKeyChecking=no" ./web/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{env.WEB_PATH}}
 
 
       # execute Craft commands on remote server
