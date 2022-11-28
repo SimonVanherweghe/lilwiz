@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  b2cfe1cb-e8c2-4387-a748-9943cd0b6ed6: # lilwiz
+    enabledByDefault: true
+    hasUrls: true
+    template: _/pages/home.twig
+    uriFormat: __home__
+type: single

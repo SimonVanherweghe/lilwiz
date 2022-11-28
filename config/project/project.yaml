@@ -1,0 +1,56 @@
+dateModified: 1669111224
+email:
+  fromEmail: simon.vanherweghe@howest.be
+  fromName: craft-vite
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: local
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
+meta:
+  __names__:
+    5fbc6670-3580-4027-9a14-5874fae115f2: ContentBlocks # ContentBlocks
+    7c18c50e-f4ec-49f9-97b8-d29a9e74fb92: Images # Images
+    9c11a710-2ace-4133-95c8-4946230e0ce7: Home # Home
+    28a361a3-83e2-49d5-8846-85d15d7d5625: RichText # RichText
+    76fb512f-3213-4450-954a-220afe4d1348: Paragraph # Paragraph
+    323d89d6-2947-454b-b2eb-b9406ec41ba1: Image # Image
+    771b630c-54d8-4fa2-86cf-d06a143f1fe6: 'Text size' # Text size
+    3242ce21-a2d5-4515-975c-9f62c3b3bc94: Title # Title
+    5721e188-a3ad-482e-9aaa-4154e9f6acfa: Home # Home
+    a1f9ae46-b038-4ef8-9ca3-0da789b00ec0: 'Title visible' # Title visible
+    ab9878b9-3a0d-451d-b7d0-c50478ee5d03: craft-vite # craft-vite
+    b2cfe1cb-e8c2-4387-a748-9943cd0b6ed6: lilwiz # lilwiz
+    b471b082-70ba-490a-a3b2-7afb62def2e3: Common # Common
+    dbf5ab16-2093-4969-a1fb-31f4301e34e2: Content # Content
+    dc07a86b-56f8-41ae-b70b-4ca3e53f083e: 'Text position' # Text position
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Lil wiz'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: Europe/Brussels
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

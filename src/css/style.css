@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(tokens.css);
+@import url(base.css);
+@import url(components/richtext.css);
+
+@import url(partials/header.css);
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+}
+
+
+
+

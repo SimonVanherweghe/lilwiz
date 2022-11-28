@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Mulish:wght@400;900&display=swap');
+
+:root{
+  --ff-regular: "Mulish", system-ui, sans-serif;
+  --ff-heading: "Bowlby One SC",  system-ui, sans-serif;
+
+  --fs-small: 1.125rem;
+  --fs-regular: 1.25rem;
+  --fs-medium: 1.5rem;
+  --fs-large: 1.75rem;
+
+  --s-s: 0.5rem;
+  --s-r: 1rem;
+  --s-m: 1.5rem;
+  --s-l: 2rem;
+  --s-xl: 2.5rem;
+
+  --c-black: #000;
+  --c-white: #fff;
+
+  --c1: #4C76BA;
+  --c2: #EB5E57;
+  --c3: #007E54;
+  --c4: #A3195B;
+  --c5: #FFCC00;
+
+  --c1d: #3C619D;
+  --c2d: #D54D46;
+  --c3d: #045D40;
+  --c4d: #7B073F;
+  --c5d: #E48B06;
+}

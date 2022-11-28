@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: lilwiz
+primary: true
+siteGroup: ab9878b9-3a0d-451d-b7d0-c50478ee5d03 # craft-vite
+sortOrder: 1

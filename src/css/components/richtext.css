@@ -1,0 +1,37 @@
+.richtext {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.richtext.last .richtext-image{
+  order: -1;
+}
+
+
+
+@media screen and (min-width: 40rem) {
+
+  .richtext.one-third .richtext-content {
+    width: 33%
+  }
+  .richtext.one-third .richtext-image {
+    width: calc(66% - 1rem);
+  }
+  
+
+  .richtext.two-third .richtext-content {
+    width: 66%
+  }
+  .richtext.two-third .richtext-image {
+    width:  calc(33% - 1rem);
+  }
+
+  
+  .richtext.half .richtext-content {
+    width: 50%
+  }
+  .richtext.half .richtext-image {
+    width: calc(50% - 1rem);
+  }
+}

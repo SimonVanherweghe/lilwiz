@@ -1,0 +1,19 @@
+columnSuffix: fklpdjms
+contentColumnType: text
+fieldGroup: b471b082-70ba-490a-a3b2-7afb62def2e3 # Common
+handle: paragraph
+instructions: null
+name: Paragraph
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

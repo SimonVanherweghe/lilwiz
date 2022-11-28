@@ -1,0 +1,44 @@
+body {
+  font-family: var(--ff-regular);
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  color: var(--c-black);
+  font-size: var(--fs-regular);
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: var(--s-m)
+}
+
+p {
+  max-width: 60ch;
+}
+
+p:has(+ p) {
+  margin-bottom: var(--s-r);
+}
+
+h1, h2, h3 {
+  font-family: var(--ff-heading);
+  text-align: center;
+  margin-bottom: var(--s-r);
+}
+
+h1 {
+  font-size: var(--fs-large);
+}
+
+h2 {
+  font-size: var(--fs-medium);
+  color: var(--c4);
+}
+
+article {
+  margin-bottom: var(--s-l);
+}

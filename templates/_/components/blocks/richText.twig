@@ -1,0 +1,24 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+
+{% set richText = theBlock.richText %}
+{% set textPosition = theBlock.textPosition %}
+{% set textSize = theBlock.textSize  %}
+
+
+{% if richText %}
+
+	<article class="block">
+		<h2 class="block-title">
+			{{theBlock.blockTitle}}
+		</h2>
+		<div class="richtext {{textPosition}} {{textSize}}">
+			<div class="richtext-content">
+				{{ richText }}
+			</div>
+			{% for image in theBlock.image.all() %}
+				<img class="richtext-image" src="{{ image.getUrl({ width: 600, height: 300})}}" alt="{{ image.title }}"/>
+			{% endfor %}
+		</div>
+	</article>
+
+{% endif %}
