@@ -1,0 +1,13 @@
+<ul class="listing">
+	{% for item in items %}
+		<li class="listing__item">
+			<article>
+				<h3 class="listing__title">{{item.title}}</h3>
+				{% set image = item.image.one() %}
+				<img src="{{ image.getUrl({ width: 410, height: 195})}}" alt="{{ image.title }}"/>
+				<p>{{item.paragraph}}</p>
+				<a href="{{item.url}}">Read more</a>
+			</article>
+		</li>
+	{% endfor %}
+</ul>

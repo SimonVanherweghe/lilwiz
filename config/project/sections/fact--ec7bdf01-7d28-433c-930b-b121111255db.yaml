@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: fact
+name: Fact
+propagationMethod: all
+siteSettings:
+  b2cfe1cb-e8c2-4387-a748-9943cd0b6ed6: # lilwiz
+    enabledByDefault: true
+    hasUrls: true
+    template: _/pages/fact.twig
+    uriFormat: 'fact/{slug}'
+type: channel

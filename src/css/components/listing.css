@@ -1,0 +1,14 @@
+.listing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-m);
+}
+
+.listing__item {
+  max-width: 30%;
+}
+
+.listing__title {
+  min-height: 3.5em;
+}
+

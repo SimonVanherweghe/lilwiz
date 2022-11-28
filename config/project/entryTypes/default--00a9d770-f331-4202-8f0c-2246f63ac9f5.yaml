@@ -1,0 +1,67 @@
+fieldLayouts:
+  fbbb344b-3e23-4713-af2d-1f0d5dadbe87:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a7db41fb-3755-4d75-ba36-247e2d0dff1b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 76fb512f-3213-4450-954a-220afe4d1348 # Paragraph
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3c426a9-d02c-48b7-a968-cb4e84614722
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 22de34fa-7213-4774-aa60-53f7311245c3 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56309399-e126-4977-8d9e-1402a9115903
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: cf63420c-d314-4dee-929c-fc4218c3980e
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Fact
+section: ec7bdf01-7d28-433c-930b-b121111255db # Fact
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

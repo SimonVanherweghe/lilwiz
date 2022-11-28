@@ -1,0 +1,8 @@
+{% extends "_/layouts/base" %}
+
+{% block content %}
+	<h1>{{ entry.title }}</h1>
+	<p>{{entry.paragraph}}</p>
+	{% set image = entry.image.one() %}
+	<img src="{{ image.getUrl({ width: 410, height: 300})}}" alt="{{ image.title }}"/>
+{% endblock %}

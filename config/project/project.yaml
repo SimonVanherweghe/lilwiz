@@ -1,4 +1,4 @@
-dateModified: 1669111224
+dateModified: 1669674782
 email:
   fromEmail: simon.vanherweghe@howest.be
   fromName: craft-vite
@@ -13,9 +13,14 @@ fs:
     url: '@web/assets'
 meta:
   __names__:
+    00a9d770-f331-4202-8f0c-2246f63ac9f5: Fact # Fact
+    0fa1338c-32f0-402b-9d4d-aa77504d0370: 'Link label' # Link label
+    3a85b709-162e-4cf3-b328-86ad116a21cc: Title # Title
     5fbc6670-3580-4027-9a14-5874fae115f2: ContentBlocks # ContentBlocks
     7c18c50e-f4ec-49f9-97b8-d29a9e74fb92: Images # Images
+    8e4fc6f7-cc86-4cac-a0a7-6145630f34ed: Items # Items
     9c11a710-2ace-4133-95c8-4946230e0ce7: Home # Home
+    22de34fa-7213-4774-aa60-53f7311245c3: Image # Image
     28a361a3-83e2-49d5-8846-85d15d7d5625: RichText # RichText
     76fb512f-3213-4450-954a-220afe4d1348: Paragraph # Paragraph
     323d89d6-2947-454b-b2eb-b9406ec41ba1: Image # Image
@@ -25,9 +30,12 @@ meta:
     a1f9ae46-b038-4ef8-9ca3-0da789b00ec0: 'Title visible' # Title visible
     ab9878b9-3a0d-451d-b7d0-c50478ee5d03: craft-vite # craft-vite
     b2cfe1cb-e8c2-4387-a748-9943cd0b6ed6: lilwiz # lilwiz
+    b8dd547a-b947-466b-8661-4254bd500bfc: Listing # Listing
     b471b082-70ba-490a-a3b2-7afb62def2e3: Common # Common
+    cb974ad7-c2ae-41ac-8192-849a75baf3ad: 'Link target' # Link target
     dbf5ab16-2093-4969-a1fb-31f4301e34e2: Content # Content
     dc07a86b-56f8-41ae-b70b-4ca3e53f083e: 'Text position' # Text position
+    ec7bdf01-7d28-433c-930b-b121111255db: Fact # Fact
 plugins:
   redactor:
     edition: standard

@@ -1,0 +1,156 @@
+field: 5fbc6670-3580-4027-9a14-5874fae115f2 # ContentBlocks
+fieldLayouts:
+  cde8d48d-5b34-4ebe-a8d7-f16f46d0dd96:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3a85b709-162e-4cf3-b328-86ad116a21cc # Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0610b918-407c-450f-baaf-2256e39730bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8e4fc6f7-cc86-4cac-a0a7-6145630f34ed # Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 104a4ff1-bde7-496b-a80e-340c2476eb96
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0fa1338c-32f0-402b-9d4d-aa77504d0370 # Link label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8718e60f-8ade-4729-bb36-3bbcfd6eb5fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb974ad7-c2ae-41ac-8192-849a75baf3ad # Link target
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a04ff86-3ec0-4bb5-aa47-1d03ee797187
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: cad91850-6058-4779-a6cf-577074359f97
+        userCondition: null
+fields:
+  0fa1338c-32f0-402b-9d4d-aa77504d0370: # Link label
+    columnSuffix: prbpxyus
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkLabel
+    instructions: null
+    name: 'Link label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3a85b709-162e-4cf3-b328-86ad116a21cc: # Title
+    columnSuffix: nplgeeso
+    contentColumnType: text
+    fieldGroup: null
+    handle: blockTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8e4fc6f7-cc86-4cac-a0a7-6145630f34ed: # Items
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: items
+    instructions: null
+    name: Items
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  cb974ad7-c2ae-41ac-8192-849a75baf3ad: # Link target
+    columnSuffix: zgjljspl
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkTarget
+    instructions: null
+    name: 'Link target'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: listing
+name: Listing
+sortOrder: 2

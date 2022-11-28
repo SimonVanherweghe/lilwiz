@@ -24,7 +24,7 @@ p:has(+ p) {
   margin-bottom: var(--s-r);
 }
 
-h1, h2, h3 {
+h1, h2{
   font-family: var(--ff-heading);
   text-align: center;
   margin-bottom: var(--s-r);
@@ -36,9 +36,58 @@ h1 {
 
 h2 {
   font-size: var(--fs-medium);
-  color: var(--c1);
+  color: var(--c4);
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: var(--s-r);
 }
 
 article {
   margin-bottom: var(--s-l);
+}
+
+.ctabutton-wrapper {
+  text-align: center;
+  margin-bottom: var(--s-m);
+}
+
+.ctabutton {
+  display: inline-block;
+  position: relative;
+  padding: var(--s-r);
+
+  font-family: var(--ff-heading);
+  text-decoration: none;
+  color: var(--c1);
+}
+
+.ctabutton::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--c1);
+  rotate: -3.5deg;
+  z-index: -1;
+}
+
+.ctabutton::after {
+  content:"";
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-white);
+  z-index: -1;
+}
+
+.ctabutton:hover {
+  rotate: 3.5deg;
 }

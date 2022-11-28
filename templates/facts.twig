@@ -1,0 +1,10 @@
+{% extends "_/layouts/base" %}
+
+{% set facts = craft.entries().section('fact').all() %}
+
+{% block content %}
+
+
+	{% include "_/includes/listing.twig" with { items: facts } only %}
+
+{% endblock %}

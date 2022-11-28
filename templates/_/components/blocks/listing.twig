@@ -1,0 +1,9 @@
+<section>
+	<h2 class="block-title">
+		{{theBlock.blockTitle}}
+	</h2>
+	{% include "_/includes/listing.twig" with { items: theBlock.items } only %}
+	<div class="ctabutton-wrapper">
+		<a href="{{theBlock.linkTarget}}" class="ctabutton">{{theBlock.linkLabel}}</a>
+	</div>
+</section>
