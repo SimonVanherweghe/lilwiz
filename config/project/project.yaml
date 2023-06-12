@@ -1,4 +1,4 @@
-dateModified: 1669674782
+dateModified: 1686570557
 email:
   fromEmail: simon.vanherweghe@howest.be
   fromName: craft-vite
@@ -54,7 +54,7 @@ system:
   live: true
   name: 'Lil wiz'
   retryDuration: null
-  schemaVersion: 4.0.0.9
+  schemaVersion: 4.4.0.4
   timeZone: Europe/Brussels
 users:
   allowPublicRegistration: false
